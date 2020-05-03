@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Fondamento:ital@1&family=Modak&display=swap');
+
+*{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+
+    font-family: 'Fondamento', cursive;
+    background-image: url(./covid-19\ Blue.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+h1{
+
+    margin-top: 15%;
+    text-align: center;
+    color: #f4f4f4;
+    justify-content: center;
+}
+
+#data{
+    border-radius: 10px;
+}
+
+.btn{
+    border-radius: 10px;
+}
+
+.btn:hover{
+    background-color: lightblue;
+    border-width: 0;
+    border: none;
+}
+
+#output{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    margin: 1.5em;
+    font-size: 1.3em;
+}
