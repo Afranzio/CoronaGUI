@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Corona App</title>
-    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corona Virus Grap</title>
+    <link rel="stylesheet" href="./style.css">
     <script type="text/javascript" src="/eel.js"></script>
-    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="script.js"></script>
 </head>
 <body>
     <div class="form">
-        <h1>Corona Panademic</h1>
-        <div>
-            <input type="text" name="Contry" id="data" placeholder="Enter the Country"><br><br>
-            <input type="submit" value="Search" class="btn" onclick=covid()>
-        </div>
-        <div id = "output"></div>
+        <input placeholder="Country" id="input" ></input>
+        <button  type ="button" id = "btn" onclick=check()>find</button>
+    </div>
+    <div class="footer">
+        <div id="output"></div>
+        <div id = "charts"></div>
     </div>
 </body>
 </html>
