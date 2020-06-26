@@ -1,6 +1,5 @@
 def count(Country):
     import matplotlib.pyplot as plt
-    import pandas as pd
     import requests
     import json
     import os
@@ -46,7 +45,7 @@ def count(Country):
         
         plt.pie(x=data,startangle=90,labels=label,radius=2,counterclock=False,colors=color,shadow = True)
 
-        plt.savefig(r"C:\\Users\\Afranzio\\Python\\pythonjseel\\web\\"+Country +".png" ,transparent=True,bbox_inches='tight')
+        plt.savefig(r"C:\\Users\\Afranzio\\Python\\pythonjseel\\web\\ img.png" ,transparent=True,bbox_inches='tight')
         
         return("Starts_Over = " + "Global Status",
             "\nTotal_Cases = " + Total_Cases,   
@@ -83,7 +82,7 @@ def count(Country):
         
         plt.pie(x=data,startangle=90,labels=label,radius=2,explode=[0,0,1],counterclock=False,colors=color,shadow = True,autopct='%1.f%%')
 
-        plt.savefig(r"C:\\Users\\Afranzio\\Python\\pythonjseel\\web\\img.png" ,transparent=True, bbox_inches='tight', pad_inches=0.1)
+        plt.savefig(r"C:\\Users\\Afranzio\\Python\\pythonjseel\\web\\img.png" ,transparent=True, bbox_inches='tight')
 
         return("Country = " + Country_Name,
             "\nTotal_Cases = " + Total_Cases,
